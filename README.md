@@ -1,1 +1,1 @@
-# MSSQL-Courses-Example
+# MSSQL - Courses Example
