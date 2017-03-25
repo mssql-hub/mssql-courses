@@ -6,9 +6,9 @@
 
 ### Cloning an Existing Repository ( Clone with HTTPS )
 ```
-
+git clone https://github.com/ismailtasdelen/MSSQL-Courses-Example.git
 ```
 ### Cloning an Existing Repository ( Clone with SSH )
 ```
-
+git clone git@github.com:ismailtasdelen/MSSQL-Courses-Example.git
 ```
