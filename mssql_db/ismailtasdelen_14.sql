@@ -7,8 +7,8 @@ SELECT COUNT(Adi) FROM MUSTERI WHERE Sehir=34
 UPDATE SIPARIS SET Tutar=Miktar*SatisFiyat
 SELECT * FROM SIPARIS WHERE SiparisTarih >='03/01/2017' ORDER BY Tutar DESC
 SELECT SUM(Tutar) TOPLAM_TUTAR, COUNT(*) SIPARIS_SAYI FROM SIPARIS WHERE SiparisTarih between '01/01/2017'and'03/30/2017'
-SELECT MAX(SatisFiyat) En_Pahali_Fiyat, MIN(SatisFiyat) EN_Ucuz_Fiyat, AVG(SatisFiyat) Ortalama_Urun_Fiyat, SUM(SatisFiyat) Toplam_Urun_Fiyat,
-COUNT(*) Urun_Sayisi FROM SIPARIS WHERE SiparisTarih > '04/01/2017'
+SELECT MAX(SatisFiyat) En_Pahali_Fiyat, MIN(SatisFiyat) EN_Ucuz_Fiyat, AVG(SatisFiyat) Ortalama_Urun_Fiyat, SUM(SatisFiyat)
+Toplam_Urun_Fiyat, COUNT(*) Urun_Sayisi FROM SIPARIS WHERE SiparisTarih > '04/01/2017'
 SELECT * FROM SIPARIS WHERE DATEDIFF(day, SiparisTarih, GETDATE())>=30
 SELECT * FROM SEHIR ORDER BY SehirAdi
 SELECT M.Adi, M.Soyadi, S.SehirAdi, M.Email FROM MUSTERI M,  SEHIR S WHERE M.Sehir = S.Plaka
