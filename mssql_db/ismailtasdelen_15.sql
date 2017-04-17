@@ -8,7 +8,7 @@ SELECT M.Adi Musteri_Adi,
 	   S.SiparisTarih Siparis_Tarih
 	   FROM MUSTERI M,
 		    URUN U,
-			SIPARIS S
+		    SIPARIS S
 	   WHERE S.M_No = MNo 
 	   AND S.U_No = U.UNo
 
