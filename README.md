@@ -4,11 +4,5 @@
 
 ## Istanbul Şehir University Lecture Notes Of MSSQL Database
 
-### Cloning an Existing Repository ( Clone with HTTPS )
-```
-git clone https://github.com/ismailtasdelen/MSSQL-Courses-Example.git
-```
-### Cloning an Existing Repository ( Clone with SSH )
-```
-git clone git@github.com:ismailtasdelen/MSSQL-Courses-Example.git
-```
+
+I wanted to gather the notes of the MS SQL training I have taken at Istanbul Şehir University in this github repo. I hope it's a helpful. Please feel free to issue issues regarding repo issues and development suggestions.
